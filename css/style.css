@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify_between {
+    justify-content: space-between;
+}
+
+header {
+    background-color: #add8e6;
+    min-height: 80px;
+    padding: 20px;   
+}
+
+header>div {
+    background-color: #daa520;
+    padding: 10px;    
+    margin: 20px;
+}
