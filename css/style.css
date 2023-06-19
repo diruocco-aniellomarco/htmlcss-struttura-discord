@@ -1,3 +1,7 @@
+:root {
+    --padding-container: 20px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -21,7 +25,7 @@
 header {
     background-color: #add8e6;
     min-height: 80px;
-    padding: 20px;   
+    padding: var(--padding-container);   
 }
 
 header>div {
@@ -32,11 +36,34 @@ header>div {
 
 .back_central_container {
     background-color: #00008b;
-    padding: 20px;
+    padding: var(--padding-container);   
 }
 .central_container {
     width: 40%;
     height: 400px;
     margin: 0 auto;
     background-color: #ee82ee;
+}
+
+/* images and text */
+.backg_white {
+    background-color: white;
+    padding: var(--padding-container); 
+}
+
+.photo {
+    width: 70%;
+    height: 400px;
+    background-color: #1e90ff;
+}
+
+.text {
+    width: 30%;
+    height: 400px;
+    background-color: #ffc0cb;
+}
+
+.backg_grey {
+    background-color: #d3d3d3;
+    padding: var(--padding-container); 
 }
