@@ -67,3 +67,9 @@ header>div {
     background-color: #d3d3d3;
     padding: var(--padding-container); 
 }
+
+/* big_block */
+.big_block {
+    height: 700px;
+    background-color: #228b22;
+}
