@@ -73,3 +73,27 @@ header>div {
     height: 700px;
     background-color: #228b22;
 }
+
+/* Contacts */
+.backg_darkgrey {
+    background-color: #23272a;
+    padding: var(--padding-container);
+}
+
+.f_card {
+    width: 25%;
+    height: 400px;
+    background-color: #f08080;
+}
+
+.s_card {
+    width: 75%;
+    height: 400px;
+    background-color: #20b2aa;
+}
+
+.sub_card {
+    width: 25%;
+    height: 400px;
+    border: 1px dashed black;
+}
