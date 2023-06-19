@@ -31,7 +31,7 @@ header {
 header>div {
     background-color: #daa520;
     padding: 10px;    
-    
+    border: 1px dashed black;
 }
 
 .back_central_container {
@@ -43,6 +43,7 @@ header>div {
     height: 400px;
     margin: 0 auto;
     background-color: #ee82ee;
+    border: 1px dashed black;
 }
 
 /* images and text */
@@ -55,12 +56,14 @@ header>div {
     width: 70%;
     height: 400px;
     background-color: #1e90ff;
+    border: 1px dashed black;
 }
 
 .text {
     width: 30%;
     height: 400px;
     background-color: #ffc0cb;
+    border: 1px dashed black;
 }
 
 .backg_grey {
@@ -72,6 +75,7 @@ header>div {
 .big_block {
     height: 700px;
     background-color: #228b22;
+    border: 1px dashed black;
 }
 
 /* Contacts */
@@ -84,6 +88,7 @@ header>div {
     width: 25%;
     height: 400px;
     background-color: #f08080;
+    border: 1px dashed black;
 }
 
 .s_card {
