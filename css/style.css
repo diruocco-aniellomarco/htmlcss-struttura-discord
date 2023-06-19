@@ -39,7 +39,7 @@ header>div {
     padding: var(--padding-container);   
 }
 .central_container {
-    width: 40%;
+    max-width: 800px;
     height: 400px;
     margin: 0 auto;
     background-color: #ee82ee;
