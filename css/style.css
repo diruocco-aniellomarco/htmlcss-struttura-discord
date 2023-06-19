@@ -97,3 +97,17 @@ header>div {
     height: 400px;
     border: 1px dashed black;
 }
+
+.border_line {
+    border-bottom: 1px solid #d6d7d7;
+}
+
+/* footer */
+footer>div {
+    background-color: #7fffd4;
+    padding: 10px;    
+}
+
+footer {
+    min-height: 80px;
+}
